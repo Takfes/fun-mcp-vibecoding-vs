@@ -13,6 +13,7 @@
 ## 🗂️ Resources
 - [MCP Servers Github](https://github.com/modelcontextprotocol/servers?tab=readme-ov-file)
 - [Use MCP servers in VS Code](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
+- [Software Documentation MCP Servers](https://medium.com/@joe.njenga/these-11-software-documentation-mcp-servers-will-ease-your-pain-and-support-burden-8f0db77477ab)
 - [GitHub Copilot Repository Instructions](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot?utm_source=chatgpt.com)
 - [Vibe Coding Framework Documentation](https://docs.google.com/document/d/12ATcyjCEKh8T-MPDZ-VMiQ1XMa9FUvvk2QazrsKoiR8/edit?tab=t.0)
 - [Customizing GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/copilot-customization)
