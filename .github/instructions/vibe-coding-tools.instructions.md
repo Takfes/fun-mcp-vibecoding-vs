@@ -1,6 +1,7 @@
 # Vibe Coding Prompt
 
 Initiate the development process by:
+
 - Always start by reading PLAN.md to understand project goals and architecture.
 - Use sequential-thinking MCP to break down work into clear, step-by-step tasks.
 - Log and update all tasks in TASKS.md; mark completed tasks but never delete them.
