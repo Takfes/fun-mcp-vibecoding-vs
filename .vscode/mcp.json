@@ -18,21 +18,21 @@
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-sequential-thinking@latest"]
     },
-    // "git": {
-    //   "command": "uvx",
-    //   "args": ["mcp-server-git"]
-    // },
     "git": {
-      "command": "docker",
-      "args": [
-        "run",
-        "--rm",
-        "-i",
-        "--mount",
-        "type=bind,src=${workspaceFolder},dst=/workspace",
-        "mcp/git"
-      ]
+      "command": "uvx",
+      "args": ["mcp-server-git"]
     },
+    // "git": {
+    //   "command": "docker",
+    //   "args": [
+    //     "run",
+    //     "--rm",
+    //     "-i",
+    //     "--mount",
+    //     "type=bind,src=${workspaceFolder},dst=/workspace",
+    //     "mcp/git"
+    //   ]
+    // },
     "github": {
       "type": "stdio",
       "command": "npx",

@@ -32,5 +32,4 @@
 
 - Avoid assumptions; ask clarifying questions when context is missing.
 - Do not hallucinate libraries or functions; use only verified Python packages.
-- Utilize `context7` MCP to fetch relevant documentation before code generation.
 - Confirm file paths and module names before referencing them.
