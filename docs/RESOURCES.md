@@ -26,6 +26,8 @@
 - [Use MCP servers in VS Code](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
 - [MCP Servers Github](https://github.com/modelcontextprotocol/servers?tab=readme-ov-file)
 - [dbhub MCP Server](https://github.com/bytebase/dbhub)
+- [Skywork Memory Bank](https://skywork.ai/skypage/en/Mastering-Persistent-Memory-for-AI-Agents-A-Deep-Dive-into-Memory-Bank-MCP-Servers/1972567696433934336)
+- [Enhanced Memory MCP](https://mcpmarket.com/server/enhanced-memory)
 
 **Generate Documentation**
 - [Generate documentation using GitHub Copilot tools](https://learn.microsoft.com/en-us/training/modules/generate-documentation-using-github-copilot-tools/?utm_source=chatgpt.com)
