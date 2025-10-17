@@ -4,6 +4,14 @@
       "command": "uvx",
       "args": ["mcp-server-time"]
     },
+    "dbhub-pg": {
+      "type": "http",
+      "url": "http://localhost:8081/message"
+    },
+    "dbhub-mysql": {
+      "type": "http",
+      "url": "http://localhost:8082/message"
+    },
     "filesystem": {
       "type": "stdio",
       "command": "npx",
