@@ -30,23 +30,13 @@
       "command": "uvx",
       "args": ["mcp-server-git"]
     },
-    // "git": {
-    //   "command": "docker",
-    //   "args": [
-    //     "run",
-    //     "--rm",
-    //     "-i",
-    //     "--mount",
-    //     "type=bind,src=${workspaceFolder},dst=/workspace",
-    //     "mcp/git"
-    //   ]
-    // },
     "github": {
       "type": "stdio",
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-github"],
       "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_pat}"
+        // "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_pat}"
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${env:GITHUB_PERSONAL_ACCESS_TOKEN}"
       }
     },
     "context7": {
@@ -59,7 +49,8 @@
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-brave-search"],
       "env": {
-        "BRAVE_API_KEY": "${input:brave_api_key}"
+        // "BRAVE_API_KEY": "${input:brave_api_key}"
+        "BRAVE_API_KEY": "${env:BRAVE_API_KEY}"
       }
     }
   },
