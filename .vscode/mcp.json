@@ -1,72 +1,82 @@
 {
   "servers": {
-    "time": {
-      "command": "uvx",
-      "args": ["mcp-server-time"]
-    },
-    "dbhub-pg": {
+    "Hub": {
       "type": "http",
-      "url": "http://localhost:8081/message"
-    },
-    "dbhub-mysql": {
-      "type": "http",
-      "url": "http://localhost:8082/message"
-    },
-    "filesystem": {
-      "type": "stdio",
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-filesystem",
-        "${workspaceFolder}"
-      ]
-    },
-    "sequentialthinking": {
-      "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking@latest"]
-    },
-    "git": {
-      "command": "uvx",
-      "args": ["mcp-server-git"]
-    },
-    "github": {
-      "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        // "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_pat}"
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "${env:GITHUB_PERSONAL_ACCESS_TOKEN}"
-      }
-    },
-    "context7": {
-      "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp@latest"]
-    },
-    "braveSearch": {
-      "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-brave-search"],
-      "env": {
-        // "BRAVE_API_KEY": "${input:brave_api_key}"
-        "BRAVE_API_KEY": "${env:BRAVE_API_KEY}"
-      }
+      "url": "http://localhost:3000/mcp"
     }
-  },
+    // "context7": {
+    //   "type": "stdio",
+    //   "command": "npx",
+    //   "args": ["-y", "@upstash/context7-mcp@latest"]
+    // },
+    // "dbhub-pg": {
+    //   "type": "http",
+    //   "url": "http://localhost:8081/message"
+    // },
+    // "dbhub-mysql": {
+    //   "type": "http",
+    //   "url": "http://localhost:8082/message"
+    // },
+    // "filesystem": {
+    //   "type": "stdio",
+    //   "command": "npx",
+    //   "args": [
+    //     "-y",
+    //     "@modelcontextprotocol/server-filesystem",
+    //     "${workspaceFolder}",
+    //     "/Users/takis/Documents/sckool",
+    //     "/Users/takis/Zotero/storage/",
+    //     "/Users/takis/Downloads",
+    //     "/Users/takis/Library/CloudStorage/GoogleDrive-pan.fessas@gmail.com/My Drive/Various/NotebookLM"
+    //   ]
+    // },
+    // "git": {
+    //   "command": "uvx",
+    //   "args": ["mcp-server-git"]
+    // },
+    // "github": {
+    //   "type": "stdio",
+    //   "command": "npx",
+    //   "args": ["-y", "@modelcontextprotocol/server-github"],
+    //   "env": {
+    //     // "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_pat}"
+    //     "GITHUB_PERSONAL_ACCESS_TOKEN": "${env:GITHUB_PERSONAL_ACCESS_TOKEN}"
+    //   }
+    // },
+    // "playwright": {
+    //   "command": "npx",
+    //   "args": ["@playwright/mcp@latest"]
+    // },
+    // "sequentialthinking": {
+    //   "type": "stdio",
+    //   "command": "npx",
+    //   "args": ["-y", "@modelcontextprotocol/server-sequential-thinking@latest"]
+    // },
+    // "time": {
+    //   "command": "uvx",
+    //   "args": ["mcp-server-time"]
+    // },
+    // "zotero": {
+    //   "command": "/Users/takis/miniforge3/bin/zotero-mcp",
+    //   "env": {
+    //     "ZOTERO_LOCAL": "true",
+    //     "ZOTERO_EMBEDDING_MODEL": "default"
+    //   }
+    // }
+  }
 
-  "inputs": [
-    {
-      "id": "brave_api_key",
-      "type": "promptString",
-      "description": "Brave API key (optional, required for brave-search server)",
-      "password": true
-    },
-    {
-      "id": "github_pat",
-      "type": "promptString",
-      "description": "GitHub Personal Access Token (optional, required for github server)",
-      "password": true
-    }
-  ]
+  //   "inputs": [
+  //     {
+  //       "id": "brave_api_key",
+  //       "type": "promptString",
+  //       "description": "Brave API key (optional, required for brave-search server)",
+  //       "password": true
+  //     },
+  //     {
+  //       "id": "github_pat",
+  //       "type": "promptString",
+  //       "description": "GitHub Personal Access Token (optional, required for github server)",
+  //       "password": true
+  //     }
+  //   ]
 }

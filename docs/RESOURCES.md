@@ -22,15 +22,18 @@
 - [Awesome Copilot](https://github.com/github/awesome-copilot/tree/main)
 - [Vibe Coding Framework Documentation](https://docs.google.com/document/d/12ATcyjCEKh8T-MPDZ-VMiQ1XMa9FUvvk2QazrsKoiR8/edit?tab=t.0)
 
-**MCP Servers**
-- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
+**MCP Primary**
 - [MCP Servers Github](https://github.com/modelcontextprotocol/servers?tab=readme-ov-file)
+- [dbhub MCP Server](https://github.com/bytebase/dbhub)
 - [MCP Registry](https://www.mcpregistry.online/)
+- [MCP Hub](https://github.com/ravitemer/mcp-hub)
+
+**MCP Supporting**
+- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
 - [MCP Server Finder](https://www.mcpserverfinder.com/)
 - [MCP Servers Org](https://mcpservers.org/)
 - [MCP Market](https://mcpmarket.com/)
 - [MCP.so](https://mcp.so/)
-- [dbhub MCP Server](https://github.com/bytebase/dbhub)
 - [Skywork Memory Bank](https://skywork.ai/skypage/en/Mastering-Persistent-Memory-for-AI-Agents-A-Deep-Dive-into-Memory-Bank-MCP-Servers/1972567696433934336)
 - [Enhanced Memory MCP](https://mcpmarket.com/server/enhanced-memory)
 - [VSCode MCP Setup](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
