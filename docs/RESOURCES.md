@@ -24,12 +24,13 @@
 
 **MCP Primary**
 - [MCP Servers Github](https://github.com/modelcontextprotocol/servers?tab=readme-ov-file)
-- [dbhub MCP Server](https://github.com/bytebase/dbhub)
+- [Pulse MCP Servers](https://www.pulsemcp.com/servers)
 - [MCP Registry](https://www.mcpregistry.online/)
 - [MCP Hub](https://github.com/ravitemer/mcp-hub)
 
 **MCP Supporting**
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
+- [dbhub MCP Server](https://github.com/bytebase/dbhub)
 - [MCP Server Finder](https://www.mcpserverfinder.com/)
 - [MCP Servers Org](https://mcpservers.org/)
 - [MCP Market](https://mcpmarket.com/)
