@@ -30,6 +30,13 @@
     //     "/Users/takis/Library/CloudStorage/GoogleDrive-pan.fessas@gmail.com/My Drive/Various/NotebookLM"
     //   ]
     // },
+    // "firecrawl-mcp": {
+    //   "command": "npx",
+    //   "args": ["-y", "firecrawl-mcp"],
+    //   "env": {
+    //     "FIRECRAWL_API_KEY": "${env:FIRECRAWL_API_KEY}"
+    //   }
+    // }
     // "git": {
     //   "command": "uvx",
     //   "args": ["mcp-server-git"]
@@ -65,18 +72,24 @@
     // }
   }
 
-  //   "inputs": [
-  //     {
-  //       "id": "brave_api_key",
-  //       "type": "promptString",
-  //       "description": "Brave API key (optional, required for brave-search server)",
-  //       "password": true
-  //     },
-  //     {
-  //       "id": "github_pat",
-  //       "type": "promptString",
-  //       "description": "GitHub Personal Access Token (optional, required for github server)",
-  //       "password": true
-  //     }
-  //   ]
+  // "inputs": [
+  //   {
+  //     "id": "brave_api_key",
+  //     "type": "promptString",
+  //     "description": "Brave API key (optional, required for brave-search server)",
+  //     "password": true
+  //   },
+  //   {
+  //     "id": "github_pat",
+  //     "type": "promptString",
+  //     "description": "GitHub Personal Access Token (optional, required for github server)",
+  //     "password": true
+  //   },
+  //   {
+  //     "id": "firecrawl_api_key",
+  //     "type": "promptString",
+  //     "description": "Firecrawl API key (optional, required for firecrawl server)",
+  //     "password": true
+  //   }
+  // ]
 }
