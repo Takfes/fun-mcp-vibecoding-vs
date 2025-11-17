@@ -1,0 +1,118 @@
+{
+  "servers": {
+    "brave-search": {
+      "command": "npx",
+      "args": ["-y", "@brave/brave-search-mcp-server"],
+      "env": {
+        "BRAVE_API_KEY": "${BRAVE_API_KEY}"
+      }
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp@latest"]
+    },
+    // "dbhub-mysql": {
+    //   "type": "http",
+    //   "url": "http://localhost:8082/message"
+    // },
+    // "dbhub-pg": {
+    //   "type": "http",
+    //   "url": "http://localhost:8081/message"
+    // },
+    "filesystem": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/takis/Documents/sckool",
+        "/Users/takis/Zotero/storage/",
+        "/Users/takis/Downloads",
+        "/Users/takis/.config"
+      ]
+    },
+    "firecrawl-mcp": {
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "${FIRECRAWL_API_KEY}"
+      }
+    },
+    "git": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-server-git"]
+    },
+    // "github": {
+    //   "type": "stdio",
+    //   "command": "npx",
+    //   "args": ["-y", "@modelcontextprotocol/server-github"],
+    //   "env": {
+    //     "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
+    //   }
+    // },
+    // "notionApi": {
+    //   "command": "npx",
+    //   "args": ["-y", "@notionhq/notion-mcp-server"],
+    //   "env": {
+    //     "OPENAPI_MCP_HEADERS": "${NOTION_API_MCP_HEADERS}"
+    //   }
+    // },
+    // "n8n-mcp": {
+    //   "command": "npx",
+    //   "args": ["n8n-mcp"],
+    //   "env": {
+    //     "MCP_MODE": "stdio",
+    //     "LOG_LEVEL": "error",
+    //     "DISABLE_CONSOLE_OUTPUT": "true",
+    //     "N8N_API_URL": "${N8N_API_URL}",
+    //     "N8N_API_KEY": "${N8N_API_KEY}"
+    //   }
+    // },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    },
+    "sequentialthinking": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking@latest"]
+    },
+    // "time": {
+    //   "type": "stdio",
+    //   "command": "uvx",
+    //   "args": ["mcp-server-time"]
+    // },
+    // "youtube-mcp": {
+    //   "command": "node",
+    //   "args": [
+    //     "/opt/homebrew/lib/node_modules/@a.ardeshir/youtube-mcp/index.js"
+    //   ],
+    //   "env": {
+    //     "YOUTUBE_API_KEY": "${YOUTUBE_API_KEY}",
+    //     "YOUTUBE_CLIENT_ID": "${YOUTUBE_CLIENT_ID}",
+    //     "YOUTUBE_CLIENT_SECRET": "${YOUTUBE_CLIENT_SECRET}",
+    //     "YOUTUBE_REFRESH_TOKEN": "${YOUTUBE_REFRESH_TOKEN}"
+    //   }
+    // },
+    "yutu": {
+      "type": "stdio",
+      "command": "yutu",
+      "args": ["mcp"],
+      "env": {
+        "YUTU_CREDENTIAL": "${YUTU_CREDENTIAL_PATH}",
+        "YUTU_CACHE_TOKEN": "${YUTU_CACHE_TOKEN_PATH}"
+      }
+    },
+    "zotero": {
+      "type": "stdio",
+      "command": "/Users/takis/miniforge3/bin/zotero-mcp",
+      "env": {
+        "ZOTERO_LOCAL": "true",
+        "ZOTERO_EMBEDDING_MODEL": "default"
+      }
+    }
+  }
+}
