@@ -1,0 +1,15 @@
+{
+  "id": "map-research-field-landscape",
+  "description": "Map and cluster a set of research papers to show the landscape of a research field and identify gaps and future directions.",
+  "tags": [
+    "research",
+    "mapping",
+    "landscape",
+    "papers",
+    "clusters",
+    "gaps"
+  ],
+  "variables": {},
+  "metadata": {},
+  "contentFile": "map-research-field-landscape.md"
+}

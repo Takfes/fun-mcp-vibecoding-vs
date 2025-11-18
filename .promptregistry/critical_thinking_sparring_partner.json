@@ -1,0 +1,12 @@
+{
+  "id": "critical_thinking_sparring_partner",
+  "description": "A prompt that turns the assistant into an intellectual sparring partner: analyzing assumptions, providing counterpoints, offering perspectives, testing reasoning, and prioritizing truth over agreement.",
+  "tags": [
+    "criticalThinking",
+    "assistantRole",
+    "intellectualSparring"
+  ],
+  "variables": {},
+  "metadata": {},
+  "contentFile": "critical_thinking_sparring_partner.md"
+}

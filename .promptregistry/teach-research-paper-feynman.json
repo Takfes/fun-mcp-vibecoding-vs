@@ -1,0 +1,14 @@
+{
+  "id": "teach-research-paper-feynman",
+  "description": "Teach a research paper to a learner using the Feynman technique with simple explanations, analogies, and a short quiz.",
+  "tags": [
+    "research",
+    "teaching",
+    "feynman",
+    "learning",
+    "papers"
+  ],
+  "variables": {},
+  "metadata": {},
+  "contentFile": "teach-research-paper-feynman.md"
+}

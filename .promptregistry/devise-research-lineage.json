@@ -1,0 +1,20 @@
+{
+  "id": "devise-research-lineage",
+  "description": "Map the chronological lineage of research papers, showing how each builds on prior work and what novelties each introduces",
+  "tags": [
+    "research",
+    "academic",
+    "papers",
+    "timeline",
+    "lineage",
+    "analysis"
+  ],
+  "variables": {
+    "papers": {
+      "description": "List of research papers to analyze and map chronologically",
+      "required": true
+    }
+  },
+  "metadata": {},
+  "contentFile": "devise-research-lineage.md"
+}

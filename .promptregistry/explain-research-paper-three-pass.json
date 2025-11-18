@@ -1,0 +1,8 @@
+{
+  "id": "explain-research-paper-three-pass",
+  "description": "Explain a research paper to a learner using a structured three-pass reading and critique framework.",
+  "tags": ["research", "papers", "explanation", "learning", "three-pass"],
+  "variables": {},
+  "metadata": {},
+  "contentFile": "explain-research-paper-three-pass.md"
+}
