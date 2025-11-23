@@ -1,0 +1,8 @@
+{
+  "id": "simplify-dumb-down-topic",
+  "description": "Explain a complex topic or paper using intuitive toy examples and minimal jargon.",
+  "tags": ["teaching", "explanation", "toy-examples", "papers"],
+  "variables": {},
+  "metadata": {},
+  "contentFile": "simplify-dumb-down-topic.md"
+}
