@@ -1,8 +1,8 @@
 {
-  "id": "study-path-notebooklm-explainer",
+  "id": "study-path-notebooklm-material-gen",
   "description": "Given a topic/field, build a 3–5 stage study path and outline a video/audio/flashcards explainer script walking through it.",
   "tags": ["study-path", "teaching", "video", "audio", "script"],
   "variables": {},
   "metadata": {},
-  "contentFile": "study-path-notebooklm-explainer.md"
+  "contentFile": "study-path-notebooklm-material-gen.md"
 }
